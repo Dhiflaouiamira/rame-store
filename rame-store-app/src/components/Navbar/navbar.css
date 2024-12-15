@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1D1D1D;
+    border-bottom: 2px solid #EC6144;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 2px solid #EC6144;
+  }
+  
